@@ -1,0 +1,182 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+header img {
+  display: flex;
+}
+nav li {
+  display: flex;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 10px;
+}
+aside {
+  padding-left: 450px;
+  padding-top: 20px;
+}
+hr {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+.caption-head {
+  color: white;
+  padding: 50px;
+  margin-left: 50px;
+  margin-top: 150px;
+  margin-bottom: 180px;
+}
+.caption-head-2 {
+  color: white;
+  padding: 50px;
+  margin-left: 50px;
+  margin-top: 450px;
+  margin-bottom: 200px;
+}
+.b-1 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: blue;
+  padding: 20px 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+.b-2 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: rgba(128, 128, 128, 0);
+  padding: 20px 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+.video-container {
+  width: 100%;
+  position: relative;
+}
+.video-container video {
+  width: 100%;
+  padding-bottom: 20px;
+  position: absolute;
+  object-fit: cover;
+}
+.video-container .caption {
+  position: relative;
+  padding: 10px;
+}
+nav ul li {
+  list-style: none;
+}
+.foot-nav ul a {
+  list-style: none;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+}
+.about-car {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.c-1 {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.b-3 {
+  background-color: rgba(128, 128, 128, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.b-3:hover {
+  border: none;
+}
+.i-7 {
+  background-image: url(../public/images/main1.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-7 {
+  display: block;
+  color: white;
+  margin-left: 100px;
+  padding-top: 200px;
+}
+.comp-img {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+.comp-cont {
+  padding-top: 180px;
+  padding-bottom: 5px;
+}
+.li-gap {
+  padding-bottom: 10px;
+}
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(190, 209, 203, 0.324);
+  padding-top: 80px;
+}
+footer div h3 {
+  color: gray;
+  padding-bottom: 25px;
+}
+footer div li {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+footer div li a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer section {
+  background-color: rgba(190, 209, 203, 0.324);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+}
+.end-foot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.end-foot div h5 {
+  padding-right: 150px;
+  font-weight: bold;
+}
+.end-foot div p {
+  padding-left: 150px;
+}
